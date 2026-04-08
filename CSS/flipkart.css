@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* ================= UPPER HEADER ================= */
+#upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+  height: 60px;
+  background-color: #fff;
+}
+
+/* LEFT SIDE */
+#leftLogo {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* LOGO BOX */
+#flipkart {
+  padding: 8px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+}
+
+/* TRAVEL */
+#travel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#travel i {
+  font-size: 16px;
+}
+
+#textTravel {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+/* RIGHT LOCATION */
+#rightLocation {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+#rightLocation i {
+  font-size: 16px;
+}
+
+#rightLocation a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #2874f0;
+  font-weight: 500;
+}
+
+/* ================= LOWER HEADER ================= */
+#lower {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  height: 60px;
+  background-color: #fff;
+}
+
+/* SEARCH BAR */
+#search {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  border: 2px solid #2874f0;
+  border-radius: 25px;
+  padding: 8px 15px;
+  margin: 0 40px;   /* IMPORTANT: gives proper width */
+  background-color: #f0f5ff;
+}
+
+#search i {
+  font-size: 16px;
+  color: #555;
+}
+
+#searching {
+  border: none;
+  outline: none;
+  width: 100%;
+  margin-left: 10px;
+  font-size: 15px;
+  background: transparent;
+}
+
+/* RIGHT SIDE (LOGIN, MORE, CART) */
+#lowerLeft {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+/* DROPDOWN ITEMS */
+.dropdown {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+/* ICON SIZE FIX */
+.dropdown i {
+  font-size: 18px;
+}
+
+/* TEXT SIZE FIX */
+.dropdown label,
+.dropdown a {
+  font-size: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  color: black;
+}
